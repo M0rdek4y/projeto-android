@@ -36,7 +36,6 @@
 }
 
 body {
-    font-t
     background-color: var(--cor0);
     font-family: var(--fonte-padrão);
 }
@@ -65,11 +64,11 @@ header > p {
     color: white;
     font-family: var(--fonte-padrão);
     font-size: 1.2em;
-    max-width: 600px;
+    max-width: 500px;
     padding-right: 10px;
     padding-left: 10px;
     margin: auto;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 nav {
@@ -163,23 +162,25 @@ main img.pequena {
 }
 
 main iframe {
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.438);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.301);
 }
 
 div.video {
-    background-color: var(--cor4);
+    background-color: transparent;
     margin: 0px -20px 30px -20px;
     padding: 20px;
-    padding-bottom: 50%;
+    padding-bottom: 30%;
     position: relative;
 }
 
 div.video > iframe {
     position: absolute;
-    top: 0%;
-    left: 0%;
-    width: 100%;
+    width: 54.2%;
     height: 100%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    
 }
 
 aside {
